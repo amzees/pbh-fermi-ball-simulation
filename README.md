@@ -9,8 +9,8 @@ This project models the production of Primordial Black Holes (PBHs) via the coll
 
 The system is governed by a Lagrangian coupling a scalar field $\varphi$ to a Dirac fermion $\chi$:
 
-```
-$\mathcal{L} = -\frac{1}{2} \partial_\mu \varphi \partial^\mu \varphi - U(\varphi,T) + \bar{\chi} i \gamma_\mu \partial^\mu \chi + y \varphi \bar{chi} \chi$
+```math
+\mathcal{L} = -\frac{1}{2} \partial_\mu \varphi \partial^\mu \varphi - U(\varphi,T) + \bar{\chi} i \gamma_\mu \partial^\mu \chi + y \varphi \bar{chi} \chi
 ```
 
 During a first-order phase transition, fermions trapped in the false vacuum are compressed into non-topological solitons (Fermi-balls), which subsequently collapse into PBHs as the Yukawa potential dominates over degeneracy pressure.
