@@ -19,22 +19,22 @@ During a first-order phase transition, fermions trapped in the false vacuum are 
 
 The simulation proceeds in four stages:
 
-1. **Toy Potential** — Scans over the scalar cubic coupling μ₃ and temperature T to locate the critical temperature Tₒ where the false and true vacua are degenerate.
+1. **Toy Potential** — Scans over the scalar cubic coupling $\mu_3$ in the potential U and temperature T to locate the critical temperature $T_c$ where the false and true vacua are degenerate.
 
-2. **Simulation** — For each (μ₃, y) configuration, computes the Fermi-ball number density, charge, mass, and radius, then the PBH mass and dark matter fraction fₚBH = ρₚBH/ρDM.
+2. **Simulation** — For each ($\mu_3$, y) configuration, with y the Yukawa coupling, computes the Fermi-ball number density, charge, mass, and radius, then the PBH mass and dark matter fraction $f_{\mathrm{PBH}} = \rho_{\mathrm{PBH}}/\rho{\mathrm{DM}}$.
 
-3. **Best Configuration** — Minimizes a χ² loss function over the grid to find the configuration closest to fₚBH = 1 and Mₚbh ~ 10¹⁷g (the unconstrained asteroid-mass window).
+3. **Best Configuration** — Minimizes a $\chi^2$ loss function over the grid to find the configuration closest to $f_{\mathrm{PBH}} = 1$ and $M_{\mathrm{PBH}} \sim 10^{17}$g (the unconstrained asteroid-mass window).
 
-4. **Monte Carlo Refinement** — Gaussian-samples 2000 points in (log Tₒ, log y) space around the best grid point to finely probe the optimal region.
+4. **Monte Carlo Refinement** — Gaussian-samples 2000 points in (log $T_c$, log y) space around the best grid point to finely probe the optimal region.
 
 ## Results
 
-The best configuration found is at μ₃ = −50 GeV and y ≈ 0.23, giving:
-- Critical temperature: Tₒ ≈ 47.7 GeV
-- PBH mass: Mₚbh ≈ 3.75 × 10⁻³³ M☉ (~7.5 g)
-- Dark matter fraction: fₚBH ≈ 1.89 (refined to ~0.85 via Monte Carlo)
+The best configuration found is at $\mu_3$ = −50 GeV and y ≈ 0.23, giving:
+- Critical temperature: $T_c$ ≈ 47.7 GeV
+- PBH mass: $M_{\mathrm{PBH}}$ ≈ 3.75 × 10⁻³³ M☉ (~7.5 g)
+- Dark matter fraction: $f_{\mathrm{PBH}}$ ≈ 1.89 (refined to ~0.85 via Monte Carlo)
 
-The PBHs produced are far too light (~1g) to fall in the unconstrained asteroid-mass window (~10¹⁷–10²²g). This is attributed to the weak dependence of Mₚbh on μ₃ (scaling as U₀^(1/4)), meaning the optimum likely lies far outside the explored parameter space.
+The PBHs produced are far too light (~1g) to fall in the unconstrained asteroid-mass window (~10¹⁷–10²²g). This is attributed to the weak dependence of $M_{\mathrm{PBH}}$ on $\mu_3$ (scaling as $U_0^{\frac{1}{4}}$), meaning the optimum likely lies far outside the explored parameter space.
 
 ## Files
 
@@ -71,10 +71,10 @@ Fixed parameters (from Hong et al. 2020 and Kawana & Xie 2021):
 
 | Parameter | Description | Value |
 |-----------|-------------|-------|
-| ηχ | Fermion–antifermion asymmetry | 10⁻²⁵ |
-| w₀ | T=0 true vacuum vev | 400 GeV |
-| Mφ | Scalar mass in true vacuum | 100 GeV |
-| c_th | Thermal mass coefficient | 0.4 |
+| $\eta_{\chi}$ | Fermion–antifermion asymmetry | 10⁻²⁵ |
+| $w_0$ | T=0 true vacuum vev | 400 GeV |
+| $M_{\varphi}$ | Scalar mass in true vacuum | 100 GeV |
+| $c_{\mathrm{th}}$ | Thermal mass coefficient | 0.4 |
 | g* | Relativistic degrees of freedom | 100 |
 
 ## References
