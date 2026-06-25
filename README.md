@@ -5,7 +5,7 @@
 
 ## Overview
 
-This project models the production of Primordial Black Holes (PBHs) via the collapse of Fermi-balls formed during a first-order phase transition in the early universe. The goal is to identify parameters of a scalar-fermion Lagrangian that produce PBHs at the right mass and abundance to explain dark matter.
+This project models the production of Primordial Black Holes (PBHs) via the collapse of Fermi-balls formed during a first-order phase transition in the early universe. The goal is to identify parameters of a scalar-fermion Lagrangian that produce PBHs at the right mass and abundance to explain dark matter. The code and writeup relate directly to this project, while the pbh-theory folder contains an overview of Primordial Black Holes and a deeper dive into the Fermi Ball PBH formation mechanism.
 
 The system is governed by a Lagrangian coupling a scalar field $\varphi$ to a Dirac fermion $\chi$:
 
