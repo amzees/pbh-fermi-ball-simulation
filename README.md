@@ -23,7 +23,7 @@ The simulation proceeds in four stages:
 
 2. **Simulation** — For each ($\mu_3$, y) configuration, with y the Yukawa coupling, computes the Fermi-ball number density, charge, mass, and radius, then the PBH mass and dark matter fraction $f_{\mathrm{PBH}} = \rho_{\mathrm{PBH}}/\rho{\mathrm{DM}}$.
 
-3. **Best Configuration** — Minimizes a $\chi^2$ loss function over the grid to find the configuration closest to $f_{\mathrm{PBH}} = 1$ and $M_{\mathrm{PBH}} \sim 10^{17}$g (the unconstrained asteroid-mass window).
+3. **Best Configuration** — Minimizes a $\chi^2$ loss function over the grid to find the configuration closest to $f_{\mathrm{PBH}} = 1$ and $M_{\mathrm{PBH}} \sim 10^{17}$ g (the unconstrained asteroid-mass window).
 
 4. **Monte Carlo Refinement** — Gaussian-samples 2000 points in (log $T_c$, log y) space around the best grid point to finely probe the optimal region.
 
