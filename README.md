@@ -1,6 +1,7 @@
 # Primordial Black Holes from the Collapse of Fermi-balls
 
 **PHYS 2640 Final Project — Brown University**
+
 *Aman Singh (aman_singh@brown.edu)*
 
 ## Overview
