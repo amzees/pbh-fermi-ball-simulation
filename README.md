@@ -41,8 +41,8 @@ The PBHs produced are far too light (~1g) to fall in the unconstrained asteroid-
 
 | File | Description |
 |------|-------------|
-| `Aman_Singh_PHYS_2640_Final_Project.ipynb` | Full simulation notebook |
-| `Aman_Singh_PHYS_2640_Final_Project.pdf` | Written report (APS-style) |
+| `pbh_fermi_ball_simulation.ipynb` | Full simulation notebook |
+| `pbh_fermi_ball_report.pdf` | Written report |
 
 ## Requirements
 
